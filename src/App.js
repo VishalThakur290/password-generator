@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import RandomPasswordGenerator from './Component/RandomPasswordGenerator';
+import Watermark from './Component/Watermark';
+import { MainWrapper } from './Style/Style';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <MainWrapper>
+      <RandomPasswordGenerator />
+      <Watermark />
+    </MainWrapper>
+  )
 }
 
-export default App;
+export default App
