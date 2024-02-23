@@ -22,7 +22,7 @@ export const RandomPasswordWrapper = styled.section`
         height: auto;
     }
 `;
-export const RandomPasswordWrapper_Section = styled.section`
+export const RandomPasswordWrapperSection = styled.section`
     background: ${props => props.background || color.grey};
     color: ${props => props.color || color.secondary};
     display: flex;
@@ -34,7 +34,7 @@ export const RandomPasswordWrapper_Section = styled.section`
     flex-wrap: wrap;
     justify-content: ${props => props.justify_content}
 `;
-export const RandomPasswordWrapper_CheckList = styled.section`
+export const RandomPasswordWrapperCheckList = styled.section`
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
@@ -45,7 +45,7 @@ export const Label = styled.label`
     margin: 0 0 0 10px;
     padding: 0;
 `;
-export const Password_status = styled.section`
+export const PasswordStatus = styled.section`
     display: flex;
     flex-wrap: nowrap;
     padding: 0;
@@ -53,7 +53,7 @@ export const Password_status = styled.section`
     height: auto;
     width: 100%;
 `;
-export const Password_status_Box = styled.section`
+export const PasswordStatusBox = styled.section`
     heigth: 10px;
     width: 20px;
     background: ${props => props.background || color.grey};
