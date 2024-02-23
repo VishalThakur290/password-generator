@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[Click here to view the live version](https://modern-password-generator.netlify.app/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
