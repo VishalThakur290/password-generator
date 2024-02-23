@@ -8,7 +8,7 @@ import { Routes, Route } from 'react-router';
 const root = ReactDOM.createRoot(document.getElementById('react'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/password-generator.github.io">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
