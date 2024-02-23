@@ -1,6 +1,5 @@
 {
   "name": "password-generator",
-  "homepage": "https://vishalthakur290.github.io/password-generator.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
